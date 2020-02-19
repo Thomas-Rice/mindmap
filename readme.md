@@ -6,6 +6,8 @@ Prerequsites:
 <h1>To run</h1>
 <h2>Option 1 - Pull From DockerHub</h2>
 <code>docker pull thomasrice1234/mindmap:latest</code>
+<br></br>
+<code>docker run -d -p 5000:5000 thomasrice1234/mindmap:latest</code>
 
 <h2>Option 2 - Build & Run Dockerfile</h2>
 <br>In the root directory of this project run:</br>
