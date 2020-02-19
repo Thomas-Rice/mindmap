@@ -10,6 +10,7 @@ Prerequsites:
 <h2>Option 2 - Build & Run Dockerfile</h2>
 <br>In the root directory of this project run:</br>
   <code>docker build -t mindmap:latest .</code>
+  <br></br>
   <code>docker run -d -p 5000:5000 mindmap:latest</code>
 <br>This will run the Api on your local machine via port 5000.</br>
 <br>Point tests to http://localhost:5000</br>
